@@ -82,7 +82,7 @@
 }
 
 .notification-toggle-switch.active {
-  background-color: #7b4fd0; /* Purple color for active state */
+  background-color: #7b4fd0; 
 }
 
 .toggle-knob {
@@ -91,11 +91,11 @@
   background-color: white;
   border-radius: 50%;
   position: absolute;
-  top: 2px;
-  left: 2px;
-  transition: left 0.3s ease;
+  top: 1px;  
+  left: 1px; 
+  transition: left 0.3s ease; 
 }
 
-.toggle-switch.active .toggle-knob {
-  left: 48px; /* Move the knob to the right when active */
+.notification-toggle-switch.active .toggle-knob {
+  left: 47px; 
 }

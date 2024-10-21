@@ -14,6 +14,7 @@ import Accommodation from "./pages/Accommadations"
 import Adventure from "./pages/Adventure"
 import SubscriptionPage from "./pages/Subscription"
 import Profile from "./pages/Profile"
+import Preferences from "./pages/Preferences"
 import Notification from "./pages/Notification"
 import Language from "./pages/Language"
 
@@ -37,6 +38,7 @@ function App() {
         <Route eaxct path='/entercarddetail' element={<EnterCardDetail />} />
         <Route eaxct path='/checkoutpayment' element={<CheckoutPayment />} />
         <Route eaxct path='/profile' element={<Profile />} />
+        <Route eaxct path='/preferences' element={<Preferences />} />
         <Route eaxct path='/notifications' element={<Notification />} />
         <Route eaxct path='/language' element={<Language />} />
       </Routes>

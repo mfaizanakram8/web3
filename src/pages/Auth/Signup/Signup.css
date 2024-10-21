@@ -1,0 +1,120 @@
+.getstarted-text {
+    font-size: 40px;
+    color: #7346D2;
+    font-weight: bold;
+    text-align: center;
+}
+
+.getstarted-subtitle {
+    font-size: 22px;
+    color: #6F6F6F;
+    text-align: center;
+    padding-top: 1vh;
+}
+
+.email-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 4vh;
+}
+
+.email-input {
+    height: 9vh;
+    width: 25vw;
+    border: 1px solid #6F6F6F;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.email-input::placeholder {
+    color: #C5C5C5;
+}
+
+.get-emailerror-text {
+    color: red;
+    text-align: center;
+}
+
+.email-input.focused {
+    border-color: #7346D2;
+}
+
+.email-input.error {
+    border-color: red;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 2vh;
+}
+
+.or-line-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3vh;
+    gap: 32px;
+}
+
+.line-style {
+    border: 1.5px solid #D9D9D9;
+    width: 10vw;
+}
+
+.or-text {
+    font-size: 16px;
+    color: #C5C5C5;
+    font-weight: 300;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3vh;
+    gap: 20px;
+}
+
+.google-apple-img {
+    cursor: pointer;
+    object-fit: contain;
+}
+
+.checkbox-term-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3vh;
+    gap: 10px;
+}
+
+.checkbox {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.by-register-text {
+    font-size: 18px;
+    color: #6E6E6E;
+}
+
+.term-privacy-text {
+    color: #7346D2;
+    cursor: pointer;
+}
+
+.already-text {
+    font-size: 16px;
+    color: #6F6F6F;
+    text-align: center;
+    padding-top: 2.5vh;
+}
+
+.signin-text {
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: .8vw;
+}

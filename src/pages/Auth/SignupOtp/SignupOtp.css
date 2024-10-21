@@ -1,0 +1,59 @@
+.signup-otp-continue-text {
+    font-size: 34px;
+    color: #7346D2;
+    text-align: center;
+    padding-top: 2vh;
+}
+
+.signup-otp-verification-text {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 2vh;
+    color: #6F6F6F;
+}
+
+.signup-otp-email-text {
+    font-weight: bold;
+}
+
+.signup-otp-field {
+    padding-top: 4vh;
+    display: flex;
+    justify-content: center;
+}
+
+.signup-otp-button-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 4vh;
+}
+
+.signup-otp-didnt-text {
+    font-size: 20px;
+    color: #6F6F6F;
+    text-align: center;
+    padding-top: 3vh;
+}
+
+.signup-otp-resend-text {
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: .8vw;
+}
+
+.signup-otp-request-text {
+    font-size: 18px;
+    color: #8D8D8D;
+    text-align: center;
+    padding-top: 2vh;
+}
+
+.signup-otp-resend-sms-text {
+    font-size: 18px;
+    color: #7346D2;
+    text-align: center;
+    font-weight: 700;
+    text-decoration-line: underline;
+    padding-top: 2vh;
+    cursor: pointer;
+}

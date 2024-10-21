@@ -1,0 +1,119 @@
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 80vh;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+}
+
+.profile-form {
+  margin-right: 40px;
+  margin-top: 30px;
+  margin-left: 470px;
+  padding: 30px;
+  width: 60%;
+
+}
+.profile-heading {
+  font-size: 36px;
+  font-weight: bold;
+  color: #6E6E6E;
+}
+
+.personal-details-section {
+  padding-top: 3vh;
+}
+.personal-details-text {
+  font-size: 22px;
+  color: #6E6E6E;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3vh;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+
+.input-box label {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 1vh;
+  padding-top: 1vh;
+}
+
+.input-box input,
+.input-box select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+.input-box input:focus,
+.input-box select:focus {
+  border-color: #7346d2;
+}
+
+.contact-details-text {
+  font-size: 22px;
+  color: #6E6E6E;
+  padding-top: 4vh;
+}
+
+.profile-button-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0px;
+}
+
+.continue-btn {
+  padding: 15px 70px;
+  background-color: #7346d2;
+  color: #fff;
+  border: none;
+  border-radius: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 6vh;
+
+}
+
+.continue-btn:hover {
+  background-color: #6034b0;
+}
+
+/* Sidebar styles */
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 15px 0;
+  font-size: 18px;
+  color: #7346d2;
+  cursor: pointer;
+}
+
+.sidebar ul li:hover {
+  color: #6034b0;
+}
+
+.sidebar ul li.active {
+  font-weight: bold;
+}

@@ -1,0 +1,56 @@
+.payment-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5vh 7vw 0px 7vw;
+}
+
+.header-logo-text {
+    font-size: 38px;
+    font-weight: bold;
+    color: #7346D2;
+}
+
+.header-button-container {
+    display: flex;
+    width: 9vw;
+    height: 5vh;
+    background-color: #7346D2;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.name-button-text {
+    font-size: 14px;
+    background-color: #7346D2;
+    color: white;
+}
+
+.arrow-down-icon {
+    height: 5px;
+    width: 10px;
+    background-color: #7346D2;
+    object-fit: contain;
+}
+
+.back-circle-arrow-container {
+    display: flex;
+    padding-left: 7vw;
+    align-items: center;
+    padding-top: 4vh;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.circle-back-arrow {
+    height: 38px;
+    width: 38px;
+    object-fit: contain;
+}
+
+.primary-back-text {
+    font-size: 24px;
+    color: #7346D2;
+}

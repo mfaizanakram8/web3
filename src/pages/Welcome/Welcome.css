@@ -1,0 +1,51 @@
+.welcome-container {
+    display: flex;
+}
+
+.welcome-leftside {
+    flex: 1;
+}
+
+.welcome-title-text {
+    font-size: 38px;
+    color: #7346D2;
+    padding-left: 8vw;
+    padding-top: 12vh;
+    font-weight: 700;
+}
+
+.welcome-find-deals-text {
+    font-size: 28px;
+    color: #6E6E6E;
+    padding-left: 8vw;
+    padding-top: 3vh;
+    font-weight: bold;
+}
+
+.welcome-subtitle-text {
+    font-size: 22px;
+    padding-left: 8vw;
+    padding-top: 2vh;
+    color: #6F6F6F;
+}
+
+.welcome-button {
+    margin-left: 8vw;
+    width: 12vw;
+    height: 6.5vh;
+    margin-top: 4vh;
+}
+
+.welcome-rightside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.welcome-image {
+    height: 79vh;
+    width: 79vh;
+    object-fit: contain;
+    margin-right: 6vw;
+}

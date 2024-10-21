@@ -1,0 +1,63 @@
+.login-otp-container {
+    display: flex;
+}
+
+.login-otp-leftside {
+    flex: 1;
+}
+
+.continue-account-text {
+    font-size: 34px;
+    color: #7346D2;
+    padding-left: 8vw;
+    padding-top: 12vh;
+}
+
+.enter-verification-text {
+    font-size: 20px;
+    padding-left: 8vw;
+    padding-top: 2vh;
+    color: #6F6F6F;
+}
+.login-otp-email-text {
+    font-weight: bold;
+}
+
+.login-otp-field {
+    padding-left: 8vw;
+    padding-top: 4vh;
+}
+
+.login-otp-button {
+    margin-left: 8vw;
+    width: 12vw;
+    height: 6.5vh;
+    margin-top: 4vh;
+}
+
+.login-otp-didnt-text {
+    font-size: 16px;
+    color: #6F6F6F;
+    padding-left: 8vw;
+    padding-top: 3vh;
+}
+.login-otp-resend-text {
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: .8vw;
+}
+
+.login-otp-rightside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-otp-image {
+    height: 70vh;
+    width: 70vh;
+    object-fit: contain;
+    margin-right: 10vw;
+    margin-top: 20vh;
+}

@@ -1,0 +1,128 @@
+.accommodation-page {
+  padding: 20px;
+}
+
+.main-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 8vw;
+}
+
+.main-leftside {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.title-text {
+  font-size: 38px;
+  color: #7346D2;
+  font-weight: 700;
+  padding-top: 12vh;
+}
+
+.continue-button {
+  width: 12vw;
+  height: 6.5vh;
+  margin-top: 2.5vh;
+}
+.disabled-button {
+  background-color: #C5C5C5; 
+  cursor: not-allowed;
+}
+
+.find-deals-text {
+  font-size: 24px;
+  color: #6E6E6E;
+  padding-top: 3vh;
+}
+
+.step-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #6F6F6F;
+  margin-left: 930px;
+}
+
+.right-side {
+  flex: 1;
+  background-color: #F3F4F6;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 900px;
+  height: 360px;
+}
+
+
+.image-gallery {
+  height: 360px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #F3F3F3;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  scrollbar-color: #7346D2 #E5E7EB;
+  scrollbar-width: thin;
+}
+
+
+.image-gallery::-webkit-scrollbar {
+  width: 8px;
+}
+
+.image-gallery::-webkit-scrollbar-thumb {
+  background-color: #7346D2;
+  border-radius: 10px;
+}
+
+.image-gallery::-webkit-scrollbar-track {
+  background-color: #E5E7EB;
+}
+
+.image-item {
+  width: 155px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F3F3F3;
+  justify-content: center;
+}
+
+.image-item-style {
+  width: 100%;
+  height: auto;
+  max-height: 140px;
+  background-color: #F3F3F3;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.image-item-style.selected {
+  border: 5px solid #7346D2;
+  border-radius: 12px;
+}
+
+.image-item p {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #6E6E6E;
+  background-color: #F3F3F3;
+}
+
+

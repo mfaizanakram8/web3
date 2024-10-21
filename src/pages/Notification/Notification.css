@@ -1,0 +1,101 @@
+.profile-container {
+  display: flex; /* Flex layout for sidebar and form */
+  justify-content: space-between; /* Sidebar on left, profile on right */
+  align-items: flex-start; /* Align both items (sidebar and profile form) to the top */
+  height: 80vh; /* Full viewport height */
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  padding-top: 20px;
+}
+
+.notification-form {
+  margin-right: 40px;
+  margin-top: 30px;
+  margin-left: 470px;
+  padding: 30px;
+  width: 100%;
+}
+
+.profile-heading {
+  font-size: 36px;
+  font-weight: bold;
+  color: #6E6E6E;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-family: Figtree;
+  font-weight: 700;
+  line-height: 33.6px;
+  text-align: left;
+
+  font-weight: bold;
+  color: #6E6E6E;
+  margin-bottom: 20px;
+}
+/* Flight Deals Container */
+.flight-deals-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  /* padding: 10px; */
+  margin: 40px 0px 40px 0px;
+}
+
+/* Text Content */
+.flight-deals-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.flight-deals-title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #6E6E6E;
+
+}
+
+.flight-deals-description {
+  font-size: 16px;
+  color: #6E6E6E;
+
+}
+
+/* Toggle Switch */
+.notification-toggle-switch {
+  width: 70px;
+  height: 24px;
+  padding: 1px;
+  background-color: #ddd;
+  border-radius: 999px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.notification-toggle-switch.active {
+  background-color: #7b4fd0; /* Purple color for active state */
+}
+
+.toggle-knob {
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: left 0.3s ease;
+}
+
+.toggle-switch.active .toggle-knob {
+  left: 48px; /* Move the knob to the right when active */
+}

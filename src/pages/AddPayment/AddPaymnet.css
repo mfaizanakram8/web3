@@ -1,0 +1,29 @@
+.add-payment-method-text {
+    font-size: 34px;
+    color: #6E6E6E;
+    padding-left: 7vw;
+    padding-top: 5vh;
+    font-weight: bold;
+}
+
+.add-payment-image {
+    height: 40vh;
+    object-fit: contain;
+    margin-top: 3vh;
+    margin-left: 7vw;
+}
+
+.add-payment-method-text-plus {
+    font-size: 24px;
+    color: #7346D2;
+    padding-left: 7vw;
+    padding-top: 4vh;
+    cursor: pointer;
+}
+
+.when-choosing-payment-text {
+    font-size: 16px;
+    color: #6F6F6F;
+    padding-top: 1vh;
+    padding-left: 7vw;
+}

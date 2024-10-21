@@ -1,0 +1,91 @@
+.login-container {
+    display: flex;
+}
+
+.login-left-side {
+    flex: 1;
+}
+
+.login-text {
+    font-size: 34px;
+    color: #7346D2;
+    padding-left: 8vw;
+    padding-top: 12vh;
+}
+
+.login-subtitle {
+    font-size: 20px;
+    padding-left: 8vw;
+    padding-top: 2vh;
+    color: #6F6F6F;
+}
+
+.login-email-container {
+    padding-top: 4vh;
+    padding-left: 8vw;
+}
+
+.login-email-input {
+    height: 8vh;
+    width: 25vw;
+    border: 1px solid #6F6F6F;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.login-email-input::placeholder {
+    color: #C5C5C5;
+}
+
+.login-email-input.focused {
+    border-color: #7346D2;
+}
+
+.login-email-input.error {
+    border-color: red;
+}
+
+.login-emailerror-text {
+    color: red;
+    padding-left: 13vw;
+    padding-top: 1vh;
+}
+
+.login-button-container {
+    padding-top: 2vh;
+    padding-left: 8vw;
+
+}
+
+.login-letstart-button {
+    height: 8vh;
+}
+
+
+.dont-have-text {
+    font-size: 16px;
+    color: #6F6F6F;
+    padding-left: 8vw;
+    padding-top: 3vh;
+}
+
+.signup-text {
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: .8vw;
+}
+
+.login-right-side {
+    /* flex: 1; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-image-style {
+    height: 65vh;
+    width: 40vw;
+    object-fit: contain;
+}

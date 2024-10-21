@@ -1,0 +1,131 @@
+
+.preferences-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #fff;
+  margin-left: 400px;
+}
+
+
+.preferences-layout {
+  display: flex;
+  flex: 1;
+  background-color: #fff;
+}
+
+
+
+
+.preferences-content {
+  flex: 0.75; 
+  padding: 40px;
+  background-color: #fff;
+}
+
+.preferences-title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #3e3e3e;
+}
+
+
+.preference-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.icon-imagep {
+  width: 15px;
+  height: 15px;
+  padding: 7px;
+  margin-right: 18px;
+  background-color: #EFE8FE;
+  border-radius: 50%;
+  margin-left: 19px;
+}
+
+.icon-imagel {
+  width: 20px;
+  height: 20px;
+  padding: 7px;
+  margin-right: 18px;
+  background-color: #EFE8FE;
+  border-radius: 50%;
+  margin-left: 19px;
+}
+
+
+.preference-card.active {
+  background-color: #eceaff; 
+}
+
+.preference-card:hover {
+  background-color: #eceaff;
+}
+
+.preference-icon {
+  font-size: 24px;
+  color: #6f42c1;
+  margin-right: 20px;
+}
+
+.preference-text h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #3e3e3e;
+}
+
+.preference-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #888;
+}
+.icon-image9 {
+  width: 20px;
+  height: 20px;
+  padding: 7px;
+  margin-right: 18px;
+ 
+
+  margin-left: 19px;
+}
+
+
+.icon-image6 {
+  background-color: #7346D2;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  padding: 6px;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+.preference-arrow {
+  font-size: 20px;
+  color: #bbb;
+}
+
+
+@media (max-width: 768px) {
+  .preferences-layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    flex: 1;
+    margin-bottom: 20px;
+  }
+
+  .preferences-content {
+    padding: 20px;
+  }
+}

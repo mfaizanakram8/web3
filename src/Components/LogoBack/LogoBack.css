@@ -1,0 +1,25 @@
+.LogoStyle {
+    font-size: 32px;
+    font-weight: bold;
+    padding-left: 8vw;
+    padding-top: 10vh;
+}
+
+.arrow-back-section {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding-left: 8vw;
+    padding-top: 2.5vh;
+    cursor: pointer;
+}
+
+.arrow-back-img {
+    object-fit: contain;
+}
+
+.back-text {
+    font-size: 20px;
+    color: #7346D2;
+    font-weight: 700;
+}

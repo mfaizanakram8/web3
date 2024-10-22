@@ -1,0 +1,124 @@
+.accommodation-page {
+    padding: 20px;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+;
+    gap: 20px;
+    padding: 0 8vw;
+  }
+  
+  .right-side {
+    flex: 1;
+    background-color: #F3F4F6;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    height: 360px;
+  }
+  .ops{
+    display: flex;
+    flex-direction: column;
+   margin-left: 300px;
+   margin-top: 50px;
+
+  }
+  .opa1{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 110px;
+   color: #6E6E6E;
+  
+  }
+  .opa2{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 110px;
+    color: #6E6E6E;
+   
+  }
+  .backbottom1{
+   
+   margin-left: 380px;
+   
+   
+}
+.save-button {
+    padding: 10px 20px;
+    background-color: #7A57D1;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+   margin-left: 400px;
+    width: 12vw;
+    height: 6.5vh;
+    margin-top: 2.5vh;
+}
+  .image-gallery {
+    height: 334px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F3F3F3;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-right: 50px;
+    scrollbar-color: #7346D2 #E5E7EB;
+    scrollbar-width: thin;
+  }
+  
+  .image-gallery::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .image-gallery::-webkit-scrollbar-thumb {
+    background-color: #7346D2;
+    border-radius: 10px;
+  }
+  
+  .image-gallery::-webkit-scrollbar-track {
+    background-color: #E5E7EB;
+  }
+  
+  .image-item {
+    width: 155px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F3F3F3;
+    justify-content: center;
+  }
+  
+  .image-item-style {
+    width: 100%;
+    max-height: 140px;
+    background-color: #F3F3F3;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .image-item-style.selected {
+    border: 5px solid #7346D2;
+    border-radius: 12px;
+  }
+  
+  .image-item p {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #6E6E6E;
+    background-color: #F3F3F3;
+  }
+  

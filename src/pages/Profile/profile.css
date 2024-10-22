@@ -117,3 +117,24 @@
 .sidebar ul li.active {
   font-weight: bold;
 }
+.input-box {
+  position: relative; /* Position relative for positioning the icon */
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+
+.input-box select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  appearance: none; /* Remove default dropdown arrow */
+  background: url('/assets/als.png') no-repeat right 10px center; /* Add your icon here */
+  background-size: 7px; /* Adjust size as needed */
+}
+
+.input-box select:focus {
+  border-color: #7346d2;
+}

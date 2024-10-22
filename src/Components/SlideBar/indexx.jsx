@@ -1,13 +1,9 @@
 import React, { useState } from 'react';
 import './slidebar.css'; 
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom'; // Import useLocation
 
 const Sidebar = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
-
-  const handleItemClick = (index) => {
-    setActiveIndex(index);
-  };
+  const location = useLocation(); // Get the current location
 
   return (
     <div className="sidebar">
@@ -15,8 +11,7 @@ const Sidebar = () => {
         <li>
           <Link
             to="/profile"
-            className={`sidebar-link ${activeIndex === 0 ? 'active' : ''}`}
-            onClick={() => handleItemClick(0)}
+            className={`sidebar-link ${location.pathname === '/profile' ? 'active' : ''}`}
           >
             <img src="/assets/contact.png" alt="Right Icon" className="icon-image7" />
             Account
@@ -25,8 +20,7 @@ const Sidebar = () => {
         <li>
           <Link
             to="/preferences"
-            className={`sidebar-link ${activeIndex === 1 ? 'active' : ''}`}
-            onClick={() => handleItemClick(1)}
+            className={`sidebar-link ${location.pathname === '/preferences' ? 'active' : ''}`}
           >
             <img src="/assets/set.png" alt="Right Icon" className="icon-image2" />
             Preferences
@@ -35,8 +29,7 @@ const Sidebar = () => {
         <li>
           <Link
             to="/payment"
-            className={`sidebar-link ${activeIndex === 2 ? 'active' : ''}`}
-            onClick={() => handleItemClick(2)}
+            className={`sidebar-link ${location.pathname === '/payment' ? 'active' : ''}`}
           >
             <img src="/assets/message.png" alt="Right Icon" className="icon-image2" />
             Payment
@@ -45,8 +38,7 @@ const Sidebar = () => {
         <li>
           <Link
             to="/notifications"
-            className={`sidebar-link ${activeIndex === 3 ? 'active' : ''}`}
-            onClick={() => handleItemClick(3)}
+            className={`sidebar-link ${location.pathname === '/notifications' ? 'active' : ''}`}
           >
             <img src="/assets/notifications.png" alt="Right Icon" className="icon-image2" />
             Notifications
@@ -55,8 +47,7 @@ const Sidebar = () => {
         <li>
           <Link
             to="/language"
-            className={`sidebar-link ${activeIndex === 4 ? 'active' : ''}`}
-            onClick={() => handleItemClick(4)}
+            className={`sidebar-link ${location.pathname === '/language' ? 'active' : ''}`}
           >
             <img src="/assets/Vector.png" alt="Right Icon" className="icon-image2" />
             Language

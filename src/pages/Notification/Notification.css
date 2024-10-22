@@ -2,7 +2,7 @@
   display: flex; /* Flex layout for sidebar and form */
   justify-content: space-between; /* Sidebar on left, profile on right */
   align-items: flex-start; /* Align both items (sidebar and profile form) to the top */
-  height: 80vh; /* Full viewport height */
+  height: auto; /* Full viewport height */
 }
 
 .sidebar {
@@ -19,7 +19,7 @@
   margin-right: 40px;
   margin-top: 30px;
   margin-left: 470px;
-  padding: 30px;
+  padding: 20px;
   width: 100%;
 }
 
@@ -27,7 +27,7 @@
   font-size: 36px;
   font-weight: bold;
   color: #6E6E6E;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .subtitle {
@@ -38,7 +38,7 @@
 
   font-weight: bold;
   color: #6E6E6E;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 /* Flight Deals Container */
 .flight-deals-container {
@@ -47,7 +47,7 @@
   justify-content: space-between;
   width: 100%;
   /* padding: 10px; */
-  margin: 40px 0px 40px 0px;
+  margin: 0px 0px 30px 0px;
 }
 
 /* Text Content */
@@ -71,8 +71,8 @@
 
 /* Toggle Switch */
 .notification-toggle-switch {
-  width: 70px;
-  height: 24px;
+  width: 62px;
+  height: 22px;
   padding: 1px;
   background-color: #ddd;
   border-radius: 999px;
@@ -86,16 +86,16 @@
 }
 
 .toggle-knob {
-  width: 22px;
-  height: 22px;
+  width: 21px;
+  height: 21px;
   background-color: white;
   border-radius: 50%;
   position: absolute;
-  top: 1px;  
+  
   left: 1px; 
   transition: left 0.3s ease; 
 }
 
 .notification-toggle-switch.active .toggle-knob {
-  left: 47px; 
+  left: 40px; 
 }

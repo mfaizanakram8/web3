@@ -1,0 +1,35 @@
+
+
+
+.name-button-text {
+    font-size: 14px;
+    background-color: #7346D2;
+    color: white;
+}
+
+.arrow-down-icon {
+    height: 5px;
+    width: 10px;
+    background-color: #7346D2;
+    object-fit: contain;
+}
+
+.back-circle-arrow-container1 {
+    display: flex;
+   padding-left: 19px;
+    align-items: center;
+    padding-top: 4vh;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.circle-back-arrow1 {
+    height: 38px;
+    width: 38px;
+    object-fit: contain;
+}
+
+.primary-back-text {
+    font-size: 24px;
+    color: #7346D2;
+}

@@ -1,8 +1,7 @@
-
 .preferences-page {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: auto;
   background-color: #fff;
   margin-left: 400px;
 }
@@ -33,15 +32,16 @@
 
 .preference-card {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
+  
 
   padding: 20px;
   border-radius: 10px;
-  margin-bottom: 15px;
+ 
   cursor: pointer;
   transition: background-color 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
 }
 .icon-imagep {
   width: 15px;
@@ -64,13 +64,43 @@
 }
 
 
-.preference-card.active {
-  background-color: #eceaff; 
+.preference-card {
+  background-color: white;
+  transition: background-color 0.3s; 
 }
 
 .preference-card:hover {
-  background-color: #eceaff;
+  background-color: #EFE8FE ;
 }
+
+.preference-card:hover .preference-text h3,
+.preference-card:hover .preference-text p {
+  background-color: #EFE8FE; 
+}
+
+.preference-card.active {
+  background-color: #eceaff; 
+  color: #333; 
+}
+
+
+
+.preference-card:hover .preference-text h3,
+.preference-card:hover .preference-text p,
+.preference-card:hover .preference-arrow,
+.preference-card:hover .preference-icon,
+.preference-card:hover .icon-imagep,
+.preference-card:hover .icon-image9 {
+  background-color: #EFE8FE; 
+  color: #6F6F6F;
+  /* Change this to the desired background color on hover */
+}
+
+/* Change the color of the arrow as well */
+.preference-card.active .preference-arrow {
+  background-color: #eceaff; /* Change arrow background */
+}
+
 
 .preference-icon {
   font-size: 24px;
@@ -81,22 +111,26 @@
 .preference-text h3 {
   margin: 0;
   font-size: 18px;
-  color: #3e3e3e;
+  color: #6F6F6F;
+  ;
+
+  
 }
 
 .preference-text p {
   margin: 0;
   font-size: 14px;
-  color: #888;
+ 
+  color: #6F6F6F;
 }
 .icon-image9 {
-  width: 20px;
+  width: 15px;
   height: 20px;
   padding: 7px;
-  margin-right: 18px;
+  margin-left: 250px;
  
 
-  margin-left: 19px;
+  
 }
 
 
@@ -113,7 +147,10 @@
   font-size: 20px;
   color: #bbb;
 }
+.link-wrapper{
+  text-decoration: none;
 
+}
 
 @media (max-width: 768px) {
   .preferences-layout {

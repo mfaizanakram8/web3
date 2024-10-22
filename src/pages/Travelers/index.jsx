@@ -34,7 +34,7 @@ function Accommodation() {
   };
 
   return (
-    <div className="accommodation-page">
+    <div className="accommodation-page2">
         <div>
             <Navbar/>
             <div>
@@ -49,20 +49,20 @@ function Accommodation() {
             </p>
             
       
-      <div className="main-content">
+      <div className="main-content2">
       
-        <div className="right-side">
-          <div className="image-gallery">
+        <div className="right-side2">
+          <div className="image-gallery2">
             {images.map((image) => (
               <div
                 key={image.id}
-                className="image-item"
+                className="image-item2"
                 onClick={() => toggleImageSelection(image.id)}
               >
                 <img
                   src={image.src}
                   alt={image.alt}
-                  className={`image-item-style ${selectedImages.includes(image.id) ? "selected" : ""
+                  className={`image-item-style2 ${selectedImages.includes(image.id) ? "selected" : ""
                     }`}
                 />
                 <p>{image.title}</p>
@@ -75,7 +75,7 @@ function Accommodation() {
        
         </div>
         </div>
-        <button className="save-button">Save</button>
+        <button className="save-button2">Save</button>
      </div>
       </div>
    

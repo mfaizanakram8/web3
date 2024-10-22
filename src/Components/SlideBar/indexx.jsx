@@ -28,7 +28,7 @@ const Sidebar = () => {
         </li>
         <li>
           <Link
-            to="/payment"
+            to="/addpayment"
             className={`sidebar-link ${location.pathname === '/payment' ? 'active' : ''}`}
           >
             <img src="/assets/message.png" alt="Right Icon" className="icon-image2" />

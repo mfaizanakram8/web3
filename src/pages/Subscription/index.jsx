@@ -41,7 +41,6 @@ function SubscriptionPage() {
         </div>
 
 
-
         <div className="toggle-container">
           <div
             className={`toggle-switch ${isYearly ? 'yearly-active' : 'monthly-active'}`}
@@ -54,6 +53,7 @@ function SubscriptionPage() {
               <span>Yearly</span>
               <div className="discount">-20%</div>
             </div>
+            <div className={`toggle-button ${isYearly ? 'move-right' : 'move-left'}`} />
           </div>
         </div>
 
@@ -220,32 +220,41 @@ function SubscriptionPage() {
           </div>
         </div>
         <div className="pricing-table">
-          <div className="table-header">
-            <div></div>
-            <h2>Free</h2>
-            <h2>Premium</h2>
-            <h2>Elite</h2>
-          </div>
-          <div className="table-row">
-            <p className="lorem">Lorem Ipsum</p>
-            <div className="tick">&#10003;</div>
-            <div className="tick">&#10003;</div>
-            <div className="tick">&#10003;</div>
-          </div>
-          <div className="table-row">
-            <p className="lorem">Lorem Ipsum</p>
-            <div className="empty"></div>
-            <div className="tick">&#10003;</div>
-            <div className="tick">&#10003;</div>
-          </div>
-          <div className="table-row">
-            <p className="lorem">Lorem Ipsum</p>
-            <div className="empty"></div>
-            <div className="empty"></div>
-            <div className="tick">&#10003;</div>
-          </div>
-        </div>
-      </div>
+  <div className="table-header">
+    <div></div>
+    <h2>Free</h2>
+    <h2>Premium</h2>
+    <h2>Elite</h2>
+  </div>
+  
+  <div className="table-row">
+    <p className="lorem">Lorem Ipsum</p>
+    <div className="tick"><img src="/assets/tick.png" alt="tick" className="tick"/></div>
+    <div className="tick"><img src="/assets/tick.png" alt="tick" className="tick"/></div>
+    <div className="tick"><img src="/assets/tick.png" alt="tick" className="tick"/></div>
+  </div>
+  
+  
+  
+
+  <div className="table-row">
+    <p className="lorem">Lorem Ipsum</p>
+    <div className="empty"></div>
+    <div className="tick"><img src="/assets/tick.png" alt="tick" className="tick"/></div>
+    <div className="tick"><img src="/assets/tick.png" alt="tick" className="tick"/></div>
+  </div>
+  
+ 
+  
+
+  <div className="table-row">
+    <p className="lorem">Lorem Ipsum</p>
+    <div className="empty"></div>
+    <div className="empty"></div>
+    <div className="tick"><img src="/assets/tick.png" alt="tick" className="tick"/></div>
+  </div>
+</div>
+</div>
       <div>
         {selectedPlan && (
           <Button onClick={handleContinue} className="continue-button1">
@@ -257,4 +266,4 @@ function SubscriptionPage() {
   );
 }
 
-export default SubscriptionPage;
+export default SubscriptionPage;  

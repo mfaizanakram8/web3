@@ -71,16 +71,20 @@
 
 .preference-card:hover {
   background-color: #EFE8FE ;
+  color: #7346D2;
 }
 
 .preference-card:hover .preference-text h3,
 .preference-card:hover .preference-text p {
   background-color: #EFE8FE; 
+ 
+  
 }
 
 .preference-card.active {
   background-color: #eceaff; 
   color: #333; 
+  color: #7346D2;
 }
 
 
@@ -92,10 +96,15 @@
 .preference-card:hover .icon-imagep,
 .preference-card:hover .icon-image9 {
   background-color: #EFE8FE; 
-  color: #6F6F6F;
+ 
+ 
   /* Change this to the desired background color on hover */
 }
-
+.preference-card:hover .preference-text h3{
+  background-color: #EFE8FE; 
+ 
+  color: #7346D2;
+}
 /* Change the color of the arrow as well */
 .preference-card.active .preference-arrow {
   background-color: #eceaff; /* Change arrow background */

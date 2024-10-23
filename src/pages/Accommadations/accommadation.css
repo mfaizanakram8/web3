@@ -60,12 +60,12 @@
   padding: 20px;
   border-radius: 10px;
   max-width: 900px;
-  height: 380px;
+  height: 450px;
 }
 
 
 .image-gallery {
-  height: 380px;
+  height: 450px;
   overflow-y: auto;
   overflow-x: hidden;
   display: flex;
@@ -93,7 +93,7 @@
 }
 
 .image-item {
-  width: 155px;
+  width: 150px;
   height: auto;
   cursor: pointer;
   transition: transform 0.3s ease;
@@ -111,18 +111,22 @@
   background-color: #F3F3F3;
   border-radius: 8px;
   object-fit: cover;
+  box-sizing: border-box;
 }
 .image-item-style.selected {
   border: 5px solid #7346D2;
   border-radius: 12px;
+  box-sizing: border-box;
 }
 
 .image-item p {
   text-align: center;
   margin-top: 8px;
   font-size: 14px;
+  margin-bottom: 8px;
   color: #6E6E6E;
   background-color: #F3F3F3;
+  min-height: 20px;
 }
 
 

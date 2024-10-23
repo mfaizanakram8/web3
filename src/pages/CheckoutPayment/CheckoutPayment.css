@@ -89,6 +89,7 @@
 
 .checkout-apply-promo-input {
     border: none;
+    outline: none;
 }
 
 .checkout-apply-promo-input::placeholder {

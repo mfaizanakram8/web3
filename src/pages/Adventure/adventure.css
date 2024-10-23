@@ -111,11 +111,13 @@
   background-color: #F3F3F3;
   border-radius: 8px;
   object-fit: cover;
+  box-sizing: border-box;
 }
 
 .image-item-style.selected {
   border: 5px solid #7346D2;
   border-radius: 12px;
+  box-sizing: border-box;
 }
 
 .image-item p {
@@ -124,4 +126,5 @@
   font-size: 14px;
   color: #6E6E6E;
   background-color: #F3F3F3;
+  min-height: 20px;
 }

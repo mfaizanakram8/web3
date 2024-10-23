@@ -35,7 +35,7 @@ const EnterCardDetail = () => {
                 <div className='enter-card-detail-field-title'>Card number</div>
 
                 <div style={{ display: 'flex', gap: '20px', alignItems: 'center', marginTop: '1vh' }}>
-                    <input type="text" placeholder='****************' className='enter-card-number-field' />
+                    <input type="number" placeholder='****************' className='enter-card-number-field' />
 
                     <div className='enter-card-logo-box'>
                         <img src="/assets/CardLogo.png" alt="CardLogo" className='enter-card-detail-logo' />
@@ -53,11 +53,11 @@ const EnterCardDetail = () => {
 
                 <div>
                     <div className='enter-card-detail-field-title'>Expiry Date</div>
-                    <input type="text" placeholder='DD/MM/YY' className='enter-card-expiry-date-field' />
+                    <input type="date" placeholder='' className='enter-card-expiry-date-field' />
                 </div>
                 <div>
                     <div className='enter-card-detail-field-title'>CVV</div>
-                    <input type="text" placeholder='***' className='enter-card-cvv-field' />
+                    <input type="number" placeholder='***' className='enter-card-cvv-field' />
                 </div>
 
             </div>

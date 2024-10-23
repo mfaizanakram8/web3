@@ -17,6 +17,7 @@
     background-color: white;
     border: 1px solid #D9D9D9;
     border-radius: 8px;
+    outline: none;
     align-items: center;
     padding-left: 1.2vw;
 }
@@ -47,6 +48,7 @@
     border: 1px solid #D9D9D9;
     border-radius: 8px;
     align-items: center;
+    outline: none;
     padding-left: 1.2vw;
     margin-top: 1vh;
 }
@@ -64,6 +66,7 @@
     border: 1px solid #D9D9D9;
     border-radius: 8px;
     text-align: center;
+    outline: none;
     margin-top: 1vh;
 }
 
@@ -77,6 +80,7 @@
     border: 1px solid #D9D9D9;
     border-radius: 8px;
     text-align: center;
+    outline: none;
     margin-top: 1vh;
 }
 .enter-card-cvv-field::placeholder {

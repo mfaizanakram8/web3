@@ -135,6 +135,24 @@
   background-size: 7px; /* Adjust size as needed */
 }
 
+
+
+
+
+
+
 .input-box select:focus {
   border-color: #7346d2;
+}
+.input-se::placeholder{
+  color:#C5C5C5;
+  font-size: 14px;
+}
+.select-2{
+  color: #C5C5C5;
+}
+.select-3{
+  color: #C5C5C5;
+  
+
 }

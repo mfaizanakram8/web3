@@ -25,20 +25,20 @@ const Profile = () => {
             <div className="input-group">
               <div className="input-box">
                 <label>First Name</label>
-                <input type="text" placeholder="Your name" />
+                <input type="text" placeholder="Your name" className='input-se'/>
               </div>
               <div className="input-box">
                 <label>Last Name</label>
-                <input type="text" placeholder="Your name" />
+                <input type="text" placeholder="Your name"  className='input-se' />
               </div>
             </div>
             <div className="input-group">
               <div className="input-box">
                 <label>Nationality</label>
-                <select>
-                  <option value="">Select</option>
-                  <option value="pakistan">Pakistan</option>
-                  <option value="india">India</option>
+                <select  className='select-2'>
+                  <option value="" className='select-3'>Select</option>
+                  <option value="pakistan" className='select-3'>Pakistan</option>
+                  <option value="india" className='select-3'>India</option>
                 </select>
               </div>
             </div>
@@ -49,11 +49,11 @@ const Profile = () => {
             <div className="input-group">
               <div className="input-box">
                 <label>Email Address</label>
-                <input type="email" placeholder="Your email address" />
+                <input type="email" placeholder="Your email address"  className='input-se'/>
               </div>
               <div className="input-box">
                 <label>Phone Number</label>
-                <input type="text" placeholder="Your phone number" />
+                <input type="text" placeholder="Your phone number"  className='input-se' />
               </div>
             </div>
           </div>

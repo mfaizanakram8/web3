@@ -1,3 +1,6 @@
+*{
+  font-family: Figtree;
+}
 .profile-container {
   display: flex;
   justify-content: space-between;

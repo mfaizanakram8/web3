@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  font-family: Figtree;
+}
 .step-text1 {
   font-size: 20px;
   font-weight: bold;
@@ -161,9 +164,9 @@
   width: 300px;
   height: 50px;
 }
-.tick {
-  width: 30px;
-  height: 30px;
+.tick1 {
+  width: 35px;
+  height: 35px;
 }
 .toggle-button {
   position: absolute;
@@ -260,3 +263,64 @@
 }
 
 
+
+.pricing-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.table-header {
+  display: contents;
+}
+
+.plan {
+  font-size: 18px;
+  font-weight: bold;
+  color: #6d28d9;
+  padding: 10px;
+}
+
+.table-row {
+  display: contents;
+}
+
+.feature {
+  font-weight: bold;
+  color: #7346d2;
+  padding: 10px;
+}
+
+
+
+.empty {
+  width: 20px;
+  height: 20px;
+}
+
+.table-row .tick {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.line {
+  grid-column: 1 / -1; 
+  height: 1px;
+  background-color: #e5e7eb;
+  margin: 10px 0; 
+  width: 900px;
+  margin-left: 60px;
+}
+
+/* Center the whole table */
+.pricing-table {
+  margin: 20px auto;
+
+  padding: 20px;
+  
+}

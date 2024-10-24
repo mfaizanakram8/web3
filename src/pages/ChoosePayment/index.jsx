@@ -39,7 +39,7 @@ const ChoosePayment = () => {
                 {paymentMethods.map((method) => (
                     <div
                         key={method.id}
-                        className="payment-item"
+                        className={`payment-item ${method.id === 3 ? 'google-pay' : ''}`}
                         onClick={() => setSelectedMethod(method.id)}
                     >
                         <img src={method.icon} className={`payment-icon ${selectedMethod === method.id ? 'filled' : ''}`} />

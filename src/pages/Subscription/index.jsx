@@ -221,37 +221,36 @@ function SubscriptionPage() {
         </div>
         <div className="pricing-table">
   <div className="table-header">
-    <div></div>
-    <h2>Free</h2>
-    <h2>Premium</h2>
-    <h2>Elite</h2>
+    <div className="empty-cell"></div> 
+    <div className="plan">Free</div>
+    <div className="plan">Premium</div>
+    <div className="plan">Elite</div>
   </div>
-  
-  <div className="table-row">
-    <p className="lorem">Lorem Ipsum</p>
-    <div className="tick"><img src="/assets/tick.png" alt="tick" className="tick"/></div>
-    <div className="tick"><img src="/assets/tick.png" alt="tick" className="tick"/></div>
-    <div className="tick"><img src="/assets/tick.png" alt="tick" className="tick"/></div>
-  </div>
-  
-  
   
 
   <div className="table-row">
-    <p className="lorem">Lorem Ipsum</p>
-    <div className="empty"></div>
-    <div className="tick"><img src="/assets/tick.png" alt="tick" className="tick"/></div>
-    <div className="tick"><img src="/assets/tick.png" alt="tick" className="tick"/></div>
+    <div className="feature">Lorem Ipsum</div>
+    <div className="tick"><img src="/assets/tick.png" alt="tick" className="tick1"/></div>
+    <div className="tick"><img src="/assets/tick.png" alt="tick" className="tick1"/></div>
+    <div className="tick"><img src="/assets/tick.png" alt="tick" className="tick1"/></div>
   </div>
+  <div className="line"></div> 
+
+  
+  <div className="table-row">
+    <div className="feature">Lorem Ipsum</div>
+    <div className="empty"></div>
+    <div className="tick"><img src="/assets/tick.png" alt="tick" className="tick1"/></div>
+    <div className="tick"><img src="/assets/tick.png" alt="tick" className="tick1"/></div>
+  </div>
+  <div className="line"></div> 
   
  
-  
-
   <div className="table-row">
-    <p className="lorem">Lorem Ipsum</p>
+    <div className="feature">Lorem Ipsum</div>
     <div className="empty"></div>
     <div className="empty"></div>
-    <div className="tick"><img src="/assets/tick.png" alt="tick" className="tick"/></div>
+    <div className="tick"><img src="/assets/tick.png" alt="tick" className="tick1"/></div>
   </div>
 </div>
 </div>

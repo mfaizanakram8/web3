@@ -1,3 +1,8 @@
+
+*{
+  font-family: Figtree;
+}
+
 .preferences-page {
   display: flex;
   flex-direction: column;
@@ -76,8 +81,8 @@
 
 .preference-card:hover .preference-text h3,
 .preference-card:hover .preference-text p {
-  background-color: #EFE8FE; 
 
+  background-color: #EFE8FE; 
   
 }
 
@@ -87,22 +92,18 @@
   color: #7346D2;
 }
 
-
-
-.preference-card:hover .preference-text h3,
-.preference-card:hover .preference-text p,
-.preference-card:hover .preference-arrow,
-.preference-card:hover .preference-icon,
-.preference-card:hover .icon-imagep,
-.preference-card:hover .icon-image9 {
-  background-color: #EFE8FE; 
- 
- 
-  /* Change this to the desired background color on hover */
+.preference-text h3,
+.preference-text p,
+.preference-arrow,
+.preference-icon,
+.icon-image9  {
+  background-color: transparent;
 }
-.preference-card:hover .preference-text h3{
-  background-color: #EFE8FE; 
- 
+
+
+
+
+.preference-card:hover h3{
   color: #7346D2;
 }
 /* Change the color of the arrow as well */
@@ -160,6 +161,14 @@
   text-decoration: none;
 
 }
+
+
+
+
+
+
+
+
 
 @media (max-width: 768px) {
   .preferences-layout {

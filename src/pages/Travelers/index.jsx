@@ -44,7 +44,7 @@ function Accommodation() {
                     </div>
        <div className="ops">
             <h1 className="opa1">Accommodation Preferences</h1>
-            <h4 className="opa2">What are your travel Plans?</h4>
+            <h4 className="opa8">What are your travel Plans?</h4>
             <p className="opa2">Unlock accommodation you love.
             </p>
             

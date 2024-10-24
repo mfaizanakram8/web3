@@ -21,6 +21,22 @@ const EnterCardDetail = () => {
         navigate('/checkoutpayment');
         setShowPopUp(false);
     };
+    const handleCVVKeyPress = (event) => {
+        if (!/[0-9]/.test(event.key)) {
+            event.preventDefault();
+        }
+    };
+    const handleCardNumberKeyPress = (event) => {
+        if (!/[0-9]/.test(event.key)) {
+            event.preventDefault();
+        }
+    };
+    const handleExpiryDateKeyPress = (event) => {
+        if (!/[0-9/]/.test(event.key)) {
+            event.preventDefault();
+        }
+    };
+ 
 
 
 
@@ -35,7 +51,8 @@ const EnterCardDetail = () => {
                 <div className='enter-card-detail-field-title'>Card number</div>
 
                 <div style={{ display: 'flex', gap: '20px', alignItems: 'center', marginTop: '1vh' }}>
-                    <input type="number" placeholder='****************' className='enter-card-number-field' />
+                    <input type="text" placeholder='****************' pattern="[0-9]*" maxLength={16}  // Assuming 16 digits for card number
+                        onKeyPress={handleCardNumberKeyPress}  inputMode="numeric"  className='enter-card-number-field' />
 
                     <div className='enter-card-logo-box'>
                         <img src="/assets/CardLogo.png" alt="CardLogo" className='enter-card-detail-logo' />
@@ -53,11 +70,13 @@ const EnterCardDetail = () => {
 
                 <div>
                     <div className='enter-card-detail-field-title'>Expiry Date</div>
-                    <input type="date" placeholder='' className='enter-card-expiry-date-field' />
+                    <input type="text" placeholder='DD/MM/YY' pattern="[0-9]*"  inputMode="numeric"  maxLength={7} 
+                        onKeyPress={handleExpiryDateKeyPress}   className='enter-card-expiry-date-field' />
                 </div>
                 <div>
                     <div className='enter-card-detail-field-title'>CVV</div>
-                    <input type="number" placeholder='***' className='enter-card-cvv-field' />
+                    <input type="text"  pattern="[0-9]*"  placeholder='***' inputMode="numeric" 
+                        maxLength={3}  onKeyPress={handleCVVKeyPress}  className='enter-card-cvv-field' />
                 </div>
 
             </div>

@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import "./subscription.css";
 import Button from '../../Components/Button';
 
+
 function SubscriptionPage() {
   const navigate = useNavigate();
   const [selectedPlan, setSelectedPlan] = useState(null);
@@ -41,22 +42,21 @@ function SubscriptionPage() {
         </div>
 
 
-        <div className="toggle-container">
+         <div className="toggle-container">
           <div
             className={`toggle-switch ${isYearly ? 'yearly-active' : 'monthly-active'}`}
             onClick={togglePlan}
           >
             <div className="option monthly">
-              <span>Monthly</span>
+              <span  style={{backgroundColor:"transparent"}}>Monthly</span>
             </div>
             <div className="option yearly">
-              <span>Yearly</span>
+              <span style={{backgroundColor:"transparent"}}>Yearly</span>
               <div className="discount">-20%</div>
             </div>
             <div className={`toggle-button ${isYearly ? 'move-right' : 'move-left'}`} />
           </div>
-        </div>
-
+        </div> 
 
 
         <div className="m2-s">
@@ -67,11 +67,12 @@ function SubscriptionPage() {
             }}
             onClick={() => handlePlanClick("free")}
           >
+            
             <img
               src="/assets/Free.png"
               alt="crown"
-              className="hello"
-              width={60}
+              className="hello1"
+              width={70}
               height={60}
               style={{
                 backgroundColor: selectedPlan === "free" ? "#EFE8FE" : "#fff",
@@ -118,11 +119,14 @@ function SubscriptionPage() {
             }}
             onClick={() => handlePlanClick("premium")}
           >
+            <img src="/assets/most.png" alt="" className="most" style={{
+                backgroundColor: selectedPlan === "free" ? "#EFE8FE" : "#fff",
+              }}/>
             <img
               src="/assets/Premium.png"
               alt="crown"
               className="hello"
-              width={60}
+              width={80}
               height={60}
               style={{
                 backgroundColor:
@@ -174,12 +178,15 @@ function SubscriptionPage() {
             }}
             onClick={() => handlePlanClick("elite")}
           >
+             <img src="/assets/lux.png" alt="" className="most" style={{
+                backgroundColor: selectedPlan === "free" ? "#EFE8FE" : "#fff",
+              }}/>
             <img
               src="/assets/Elite.png"
               alt="crown"
-              className="hello"
-              width={60}
-              height={60}
+              className="hello2"
+              width={80}
+              height={50}
               style={{
                 backgroundColor: selectedPlan === "elite" ? "#EFE8FE" : "#fff",
               }}

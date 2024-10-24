@@ -55,13 +55,17 @@ const Language = () => {
                                 </div>
                             </div>
                         )}
-                        
-                    </div>
-                    <div className="language-button-container">
+                        <div className="language-button-container">
                         <button className="language-continue-btn">Continue</button>
                     </div>
+                        
+                    </div>
+                    
                 </div>
+               
             </div>
+            
+            
         </div>
     )
 }

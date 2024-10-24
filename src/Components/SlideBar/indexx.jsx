@@ -20,11 +20,12 @@ const Sidebar = () => {
         <li>
           <Link
             to="/preferences"
-            className={`sidebar-link ${location.pathname === '/preferences' ? 'active' : ''}`}
+            className={`sidebar-link ${location.pathname.startsWith('/preferences') ? 'active' : ''}`}
           >
             <img src="/assets/set.png" alt="Right Icon" className="icon-image2" />
             Preferences
           </Link>
+       
         </li>
         <li>
           <Link

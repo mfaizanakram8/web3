@@ -18,7 +18,7 @@ import Preferences from "./pages/Preferences";
 
 import Notification from "./pages/Notification";
 import Language from "./pages/Language";
-import OriginPreferences from "./pages/Origin-Preference";
+import  OriginPreferences from "./pages/Origin-Preference";
 import Travlers from "./pages/Travelers";
 import Destination from "./pages/Destination";
 

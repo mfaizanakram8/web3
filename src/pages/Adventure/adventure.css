@@ -113,6 +113,7 @@
   max-height: 140px;
   background-color: #F3F3F3;
   border-radius: 8px;
+  margin-top: 24px;
   object-fit: cover;
   box-sizing: border-box;
 }

@@ -65,7 +65,7 @@ const Preferences = () => {
                 </div>
                 <div className="preference-text">
                   <h3>Accommodation preferences</h3>
-                  <p>Lorem ipsum dolor sit amet, consectet</p>
+                  <p >Lorem ipsum dolor sit amet, consectet</p>
                 </div>
                 <div className="preference-arrow">
                   <img
@@ -88,8 +88,8 @@ const Preferences = () => {
                   />
                 </div>
                 <div className="preference-text">
-                  <h3>Destination preferences</h3>
-                  <p>Lorem ipsum dolor sit amet, consectet</p>
+                  <h3 >Destination preferences</h3>
+                  <p >Lorem ipsum dolor sit amet, consectet</p>
                 </div>
                 <div className="preference-arrow">
                   <img

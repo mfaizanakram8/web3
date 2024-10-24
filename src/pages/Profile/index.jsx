@@ -57,7 +57,7 @@ const Profile = () => {
                   <div className="dropdown-header1" onClick={toggleDropdown}>
                       <span className={selectedNationality === 'Select' ? 'placeholder' : ''}>{selectedNationality}</span>
                       <span className={`arrow ${isOpen ? 'open' : ''}`}>
-                          <img src='/assets/als.png' height={10} width={10} alt="arrow" />
+                          <img src='/assets/als.png' height={7} width={7} alt="arrow" />
                       </span>
                   </div>
                   {isOpen && (

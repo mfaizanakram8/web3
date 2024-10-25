@@ -17,6 +17,7 @@
     font-size: 20px;
     padding-left: 8vw;
     padding-top: 2vh;
+    font-weight: 400;
     color: #6F6F6F;
 }
 .login-otp-email-text {
@@ -38,6 +39,7 @@
 .login-otp-didnt-text {
     font-size: 16px;
     color: #6F6F6F;
+    font-weight: 400;
     padding-left: 8vw;
     padding-top: 3vh;
 }

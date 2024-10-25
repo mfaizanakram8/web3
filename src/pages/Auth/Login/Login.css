@@ -16,6 +16,7 @@
 .login-subtitle {
     font-size: 20px;
     padding-left: 8vw;
+    font-weight: 400;
     padding-top: 2vh;
     color: #6F6F6F;
 }
@@ -68,6 +69,7 @@
     color: #6F6F6F;
     padding-left: 8vw;
     padding-top: 3vh;
+    font-weight: 400;
 }
 
 .signup-text {

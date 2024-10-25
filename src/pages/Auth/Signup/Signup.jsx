@@ -9,6 +9,7 @@ const SignUp = () => {
   const [email, setEmail] = useState('');
   const [emailError, setEmailError] = useState('');
   const [isFocused, setIsFocused] = useState(false); 
+  const [isChecked, setIsChecked] = useState(false); // Checkbox state
 
   const handleLogin = () => {
     navigate('/login');
@@ -26,6 +27,11 @@ const SignUp = () => {
 
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
+  };
+
+  // Toggle function for checkbox
+  const handleCheckboxClick = () => {
+    setIsChecked(!isChecked);
   };
 
   return (
@@ -63,7 +69,12 @@ const SignUp = () => {
       </div>
 
       <div className='checkbox-term-container'>
-        <input type='checkbox' className='checkbox' />
+        <img 
+          src={isChecked ? "/assets/tick1.png" : "/assets/tick-1.png"} 
+          alt="checkbox"  
+          className='checkbox'
+          onClick={handleCheckboxClick} // Call toggle function on click
+        />
         <p className='by-register-text'>
           By registering you accept our <span className='term-privacy-text'>terms and Conditions</span> and <span className='term-privacy-text'>Privacy policy</span>
         </p>

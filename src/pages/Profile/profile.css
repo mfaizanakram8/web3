@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  height: 80vh;
+  height: 80vmin;
 }
 
 .sidebar {
@@ -25,10 +25,8 @@
   width: 60%;
 
 }
-.profile-heading {
-  font-size: 36px;
-  font-weight: bold;
-  color: #6E6E6E;
+.profile-heading1 {
+ margin-bottom: 4px;
 }
 
 .personal-details-section {
@@ -204,11 +202,11 @@
 }
 
 .dropdown-item1:hover {
-  background-color: #f9f9f9; /* Hover effect */
+  background-color: #f9f9f9; 
 }
 
 .dropdown-item1.active {
-  background-color: #eae5ff; /* Highlight selected item */
+  background-color: #eae5ff; 
   color: #7b4fd0;
 }
 
@@ -225,3 +223,39 @@
   color: #6E6E6E;
   font-weight: lighter;
 }
+
+
+.country-flags {
+  margin-right: 10px;
+ position: absolute;
+  top: -40px;
+  border: none;  
+  display: inline-block;
+  box-shadow: none; 
+  outline: none;
+  width: 64px; 
+  height: 20px; 
+}
+.input-box1 {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  height: 87px;
+}
+
+.input-se1 {
+  padding: 70px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+margin-bottom: 0;
+box-sizing: border-box;
+  min-width: 200px; 
+}
+.input-se1::placeholder{
+
+  color:#C5C5C5;
+  font-size: 14px;
+}
+
+

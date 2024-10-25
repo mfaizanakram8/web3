@@ -13,7 +13,7 @@ const Sidebar = () => {
             to="/profile"
             className={`sidebar-link ${location.pathname === '/profile' ? 'active' : ''}`}
           >
-            <img src="/assets/contact.png" alt="Right Icon" className="icon-image7" />
+            <img src="/assets/contact1.png" alt="Right Icon" className="icon-image7" />
             Account
           </Link>
         </li>
@@ -32,7 +32,7 @@ const Sidebar = () => {
             to="/addpayment"
             className={`sidebar-link ${location.pathname === '/payment' ? 'active' : ''}`}
           >
-            <img src="/assets/message.png" alt="Right Icon" className="icon-image2" />
+            <img src="/assets/message.png" alt="Right Icon" className="icon-image3" />
             Payment
           </Link>
         </li>
@@ -41,7 +41,7 @@ const Sidebar = () => {
             to="/notifications"
             className={`sidebar-link ${location.pathname === '/notifications' ? 'active' : ''}`}
           >
-            <img src="/assets/notifications.png" alt="Right Icon" className="icon-image2" />
+            <img src="/assets/notifications.png" alt="Right Icon" className="icon-image4" />
             Notifications
           </Link>
         </li>
@@ -50,7 +50,7 @@ const Sidebar = () => {
             to="/language"
             className={`sidebar-link ${location.pathname === '/language' ? 'active' : ''}`}
           >
-            <img src="/assets/Vector.png" alt="Right Icon" className="icon-image2" />
+            <img src="/assets/Vector.png" alt="Right Icon" className="icon-image5" />
             Language
           </Link>
         </li>

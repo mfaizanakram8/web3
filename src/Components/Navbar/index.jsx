@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="navbar">
       {/* Left Icon (Image) */}
       <div className="navbar-icon left-icon">
-        <img src="/assets/nav-left.png" alt="Left Icon" className="icon-image5" />
+        <img src="/assets/nav-left.png" alt="Left Icon" className="icon-image0" />
       </div>
 
       {/* Center Navigation Links */}

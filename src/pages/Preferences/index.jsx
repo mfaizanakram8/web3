@@ -84,11 +84,11 @@ const Preferences = () => {
                   <img
                     src="/assets/vac3.png"
                     alt="Right Icon"
-                    className="icon-imagel"
+                    className="icon-image3"
                   />
                 </div>
                 <div className="preference-text">
-                  <h3 >Destination preferences</h3>
+                  <h3 className="dar">Destination preferences</h3>
                   <p >Lorem ipsum dolor sit amet, consectet</p>
                 </div>
                 <div className="preference-arrow">

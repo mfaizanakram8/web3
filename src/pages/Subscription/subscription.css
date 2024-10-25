@@ -290,7 +290,7 @@
 }
 
 .plan {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
   color: #6d28d9;
   padding: 10px;
@@ -325,8 +325,8 @@
   height: 1px;
   background-color: #e5e7eb;
   margin: 10px 0; 
-  width: 900px;
-  margin-left: 60px;
+  width: 880px;
+  margin-left: 72px;
 }
 
 /* Center the whole table */

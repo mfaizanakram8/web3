@@ -1,6 +1,6 @@
 .sidebar {
  
-    flex: 0 0 300px; 
+  width: 300px;
     margin-top: 70px;
     margin-left: 150px;
     
@@ -22,7 +22,7 @@
 
 .sidebar li {
   
-    height: 20px;
+    height: 30px;
 
     white-space: nowrap;
     
@@ -34,27 +34,37 @@
     height: 100%; 
     text-decoration: none; 
     color: #6F6F6F; 
-    padding: 0;
-    position: relative; 
+    padding: 8px;
+   
   
 }
 
 .sidebar-link:hover {
     background-color: #EFE8FE; 
-    padding: 7px;
+    
     border-left: 5px solid #7346D2;
 }
+
 
 .sidebar-link.active {
     background-color: #D4B9FF; 
     color: #7346D2; 
-    padding: 7px;
+   
     border-left: 5px solid #7346D2;
+  
     margin: 0;
+}
+.sidebar-link.active  .icon-image7{
+    content: url('/assets/contact.png');
+    background-color: #7346D2;
+}
+.sidebar-link:hover .icon-image7{
+    content: url('/assets/contact.png');
+    background-color: #7346D2;
 }
 
 .icon-image7 {
-    background-color: #7346D2;
+    background-color: #EFE8FE;
     width: 20px;
     height: 20px;
     border-radius: 100%;
@@ -72,4 +82,68 @@
     border-radius: 50%;
     margin-left: 19px;
 } 
+
+.sidebar-link.active  .icon-image2{
+    content: url('/assets/set1.png');
+    background-color: #7346D2;
+}
+.sidebar-link:hover .icon-image2{
+    content: url('/assets/set1.png');
+    background-color: #7346D2;
+}
+.icon-image3 {
+    width: 20px;
+    height: 20px;
+    padding: 7px;
+    margin-right: 18px;
+    background-color: #EFE8FE;
+    border-radius: 50%;
+    margin-left: 19px;
+} 
+.icon-image4 {
+    width: 20px;
+    height: 20px;
+    padding: 7px;
+    margin-right: 18px;
+    background-color: #EFE8FE;
+    border-radius: 50%;
+    margin-left: 19px;
+} 
+.icon-image5 {
+    width: 20px;
+    height: 20px;
+    padding: 7px;
+    margin-right: 18px;
+    background-color: #EFE8FE;
+    border-radius: 50%;
+    margin-left: 19px;
+} 
+.sidebar-link.active  .icon-image3{
+    content: url('/assets/message-1.png');
+    background-color: #7346D2;
+}
+.sidebar-link:hover .icon-image3{
+    content: url('/assets/message-1.png');
+    background-color: #7346D2;
+}
+
+
+
+.sidebar-link.active  .icon-image4{
+    content: url('/assets/notify.png');
+    background-color: #7346D2;
+}
+.sidebar-link:hover .icon-image4{
+    content: url('/assets/notify.png');
+    background-color: #7346D2;
+}
+
+.sidebar-link.active  .icon-image5{
+    content: url('/assets/vector1.png');
+    background-color: #7346D2;
+}
+.sidebar-link:hover .icon-image5{
+    content: url('/assets/vector1.png');
+    background-color: #7346D2;
+}
 

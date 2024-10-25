@@ -42,7 +42,7 @@
   
 
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 7px;
  
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -79,12 +79,7 @@
   color: #7346D2;
 }
 
-.preference-card:hover .preference-text h3,
-.preference-card:hover .preference-text p {
 
-  background-color: #EFE8FE; 
-  
-}
 
 .preference-card.active {
   background-color: #eceaff; 
@@ -101,10 +96,20 @@
 }
 
 
-
+h3{
+  background-color: transparent;
+}
+p{
+  background-color: transparent;
+}
 
 .preference-card:hover h3{
   color: #7346D2;
+  background-color: #EFE8FE;
+  
+}
+.preference-card:hover p{
+  background-color: #EFE8FE;
 }
 /* Change the color of the arrow as well */
 .preference-card.active .preference-arrow {
@@ -130,7 +135,7 @@
 .preference-text p {
   margin: 0;
   font-size: 14px;
- 
+ background-color: transparent;
   color: #6F6F6F;
 }
 .icon-image9 {
@@ -145,7 +150,7 @@
 
 
 .icon-image6 {
-  background-color: #7346D2;
+  background-color: #EFE8FE;
   width: 20px;
   height: 20px;
   border-radius: 100%;
@@ -162,6 +167,94 @@
 
 }
 
+
+.preference-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+}
+
+/* Default background and image styling */
+.preference-card .preference-icon img {
+  transition: background-color 0.3s ease;
+}
+
+/* Hover Effect */
+.preference-card:hover {
+  background-color: #EFE8FE; 
+  color: #7346D2; 
+}
+
+
+
+/* Change image on hover */
+.preference-card:hover .icon-image6 {
+  content: url('/assets/alif-2.png');
+  background-color: #7346D2; 
+  width: 20px;
+  height: 20px;
+  padding: 7px;
+  margin-right: 18px;
+
+  border-radius: 50%;
+  margin-left: 19px;/* Change the icon to another image */
+}
+
+.preference-card:hover .icon-imagep {
+  content: url('/assets/vac1.png'); 
+  background-color: #7346D2;
+  width: 20px;
+  height: 20px;
+  padding: 7px;
+  margin-right: 18px;
+
+  border-radius: 50%;
+  margin-left: 19px;/* Change to a new image */
+}
+
+.preference-card:hover .icon-imagel {
+  content: url('/assets/vac(4).png');
+  background-color: #7346D2;
+  width: 20px;
+  height: 20px;
+  padding: 7px;
+  margin-right: 18px;
+
+  border-radius: 50%;
+  margin-left: 19px; /* Change to another new image */
+}
+
+.preference-card:hover .icon-image3{
+  content: url('/assets/vac3-.png');
+  background-color: #7346D2;
+  width: 20px;
+  height: 20px;
+  padding: 7px;
+  margin-right: 18px;
+
+  border-radius: 50%;
+  margin-left: 19px;
+}
+
+
+.preference-arrow img {
+  transition: all 0.3s ease; 
+}
+
+
+.icon-image3 {
+  width: 20px;
+  height: 20px;
+  padding: 7px;
+  margin-right: 18px;
+  background-color: #EFE8FE;
+  border-radius: 50%;
+  margin-left: 19px;
+}
 
 
 

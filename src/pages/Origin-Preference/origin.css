@@ -100,7 +100,7 @@ p {
 .image-container {
     display: flex;
     gap: 20px;
-    margin: 15px 0;
+    margin: 10px 0;
 }
 .image-1{
     width: 150px;
@@ -110,6 +110,8 @@ p {
 .abc{
     text-align: center;
     align-items: center;
+    color:  #6F6F6F;
+    font-weight: 400;
 }
 
 .image-item {

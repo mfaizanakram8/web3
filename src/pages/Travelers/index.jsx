@@ -65,7 +65,7 @@ function Accommodation() {
                   className={`image-item-style2 ${selectedImages.includes(image.id) ? "selected" : ""
                     }`}
                 />
-                <p>{image.title}</p>
+                <p className="color">{image.title}</p>
               </div>
             ))}
           </div>

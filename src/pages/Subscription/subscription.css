@@ -214,7 +214,7 @@
 }
 
 /* Update for the discount span */
-.yearly .discount {
+.discount {
   color: #ffb800;
   font-weight: 700;
   margin-left: 5px;
@@ -337,9 +337,10 @@
   
 }
 .most{
-  width: 140px;
+  width: 147px;
   height: 35px;
   position: absolute;
-  top: 457px;
+  top: 456px;
+
   border-radius: 25px;
 }

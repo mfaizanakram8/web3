@@ -188,7 +188,9 @@ p{
   background-color: #EFE8FE; 
   color: #7346D2; 
 }
-
+.preference-text{
+  background-color: transparent;
+}
 
 
 /* Change image on hover */

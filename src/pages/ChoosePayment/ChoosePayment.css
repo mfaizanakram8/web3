@@ -7,8 +7,9 @@
 }
 
 .choose-payment-method-subtitle {
-    font-size: 18px;
+    font-size: 20px;
     color: #6E6E6E;
+    font-weight: 400;
     padding-top: 2.5vh;
     padding-left: 7vw;
 }

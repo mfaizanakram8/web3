@@ -9,6 +9,7 @@
     font-size: 22px;
     color: #6F6F6F;
     text-align: center;
+    font-weight: 400;
     padding-top: 1vh;
 }
 
@@ -131,6 +132,7 @@
 .by-register-text {
     font-size: 18px;
     color: #6E6E6E;
+    font-weight: 400;
 }
 
 .term-privacy-text {
@@ -142,6 +144,7 @@
     font-size: 16px;
     color: #6F6F6F;
     text-align: center;
+    font-weight: 400;
     padding-top: 2.5vh;
 }
 

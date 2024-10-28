@@ -211,7 +211,7 @@
   transition: all 0.3s ease;
   border-radius: 100px;
   color: #6c3bb5;
-  background-color: #efe8fe;
+  background-color: transparent;
 }
 
 /* Update for the discount span */
@@ -232,7 +232,7 @@
   color: white; /* Span text color */
 }
 
-.yearly-active .yearly .discount {
+.yearly-active .yearly {
   color: #ffb800;
   background-color: #7346d2;
 }
@@ -253,11 +253,11 @@
 }
 
 .monthly-active .yearly span {
-  color: #6c3bb5; /* Inactive yearly text */
-  background-color: #efe8fe; /* Inactive yearly background */
+  color: #6c3bb5; 
+  background-color: #efe8fe; 
 }
 
-/* Background highlight for selected item */
+
 .yearly-active .yearly::before,
 .monthly-active .monthly::before {
   content: "";
@@ -281,13 +281,17 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 10px;
-  width: 80%;
+  width: 70%;
+ 
   margin: 0 auto;
   text-align: center;
+ 
+  
 }
 
 .table-header {
   display: contents;
+ 
 }
 
 .plan {
@@ -295,6 +299,7 @@
   font-weight: bold;
   color: #6d28d9;
   padding: 10px;
+ 
 }
 
 .table-row {
@@ -302,9 +307,10 @@
 }
 
 .feature {
-  font-weight: bold;
+  font-weight: 400;
   color: #7346d2;
   padding: 10px;
+  margin-right: 60px;
 }
 
 
@@ -326,13 +332,14 @@
   height: 1px;
   background-color: #e5e7eb;
   margin: 10px 0; 
-  width: 880px;
-  margin-left: 72px;
+  width: 800px;
+  margin-left: 14px;
+ 
 }
 
 /* Center the whole table */
 .pricing-table {
-  margin: 20px auto;
+  margin-left: 230px;
 
   padding: 20px;
   

@@ -105,15 +105,15 @@ p{
 
 .preference-card:hover h3{
   color: #7346D2;
-  background-color: #EFE8FE;
+  background-color: transparent;
   
 }
 .preference-card:hover p{
-  background-color: #EFE8FE;
+  background-color: transparent;
 }
-/* Change the color of the arrow as well */
+
 .preference-card.active .preference-arrow {
-  background-color: #eceaff; /* Change arrow background */
+  background-color: #eceaff; 
 }
 
 

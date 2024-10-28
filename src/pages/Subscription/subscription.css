@@ -339,7 +339,7 @@
 
 /* Center the whole table */
 .pricing-table {
-  margin-left: 230px;
+  margin-left: 220px;
 
   padding: 20px;
   
@@ -348,7 +348,7 @@
   width: 147px;
   height: 35px;
   position: absolute;
-  top: 456px;
+  top: 454px;
 
   border-radius: 25px;
 }

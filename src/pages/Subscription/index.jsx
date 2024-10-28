@@ -96,9 +96,7 @@ function SubscriptionPage() {
             </h2>
             <p
               className="paragraph"
-              style={{
-                backgroundColor: selectedPlan === "free" ? "#EFE8FE" : "#fff",
-              }}
+              style={{fontWeight: "400"}}
             >
               Lorem ipsum dolor sit amet,{" "}
               <span
@@ -107,7 +105,7 @@ function SubscriptionPage() {
                   backgroundColor: selectedPlan === "free" ? "#EFE8FE" : "#fff",
                 }}
               >
-                consectetuer adipiscing
+                consectetuer adipi
               </span>
             </p>
           </div>
@@ -153,10 +151,7 @@ function SubscriptionPage() {
             </h2>
             <p
               className="paragraph"
-              style={{
-                backgroundColor:
-                  selectedPlan === "premium" ? "#EFE8FE" : "#fff",
-              }}
+              style={{fontWeight: "400"}}
             >
               Lorem ipsum dolor sit amet,{" "}
               <span
@@ -166,7 +161,7 @@ function SubscriptionPage() {
                     selectedPlan === "premium" ? "#EFE8FE" : "#fff",
                 }}
               >
-                consectetuer adipiscing
+                consectetuer adipi
               </span>
             </p>
           </div>
@@ -209,9 +204,7 @@ function SubscriptionPage() {
             </h2>
             <p
               className="paragraph"
-              style={{
-                backgroundColor: selectedPlan === "elite" ? "#EFE8FE" : "#fff",
-              }}
+              style={{fontWeight: "400"}}
             >
               Lorem ipsum dolor sit amet,{" "}
               <span
@@ -221,7 +214,7 @@ function SubscriptionPage() {
                     selectedPlan === "elite" ? "#EFE8FE" : "#fff",
                 }}
               >
-                consectetuer adipiscing
+                consectetuer adipi
               </span>
             </p>
           </div>

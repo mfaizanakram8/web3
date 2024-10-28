@@ -195,7 +195,7 @@ p{
 
 /* Change image on hover */
 .preference-card:hover .icon-image6 {
-  content: url('/assets/alif-2.png');
+  content: url('/assets/alif-1.png');
   background-color: #7346D2; 
   width: 20px;
   height: 20px;

@@ -26,7 +26,7 @@ const Preferences = () => {
                   
                 >
                   <img
-                    src="/assets/alif-1.png"
+                    src="/assets/alif-2.png"
                     alt="Right Icon"
                     className="icon-image6"
                   />

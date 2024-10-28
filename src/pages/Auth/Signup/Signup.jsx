@@ -73,7 +73,7 @@ const SignUp = () => {
           src={isChecked ? "/assets/tick1.png" : "/assets/tick-1.png"} 
           alt="checkbox"  
           className='checkbox'
-          onClick={handleCheckboxClick} // Call toggle function on click
+          onClick={handleCheckboxClick} 
         />
         <p className='by-register-text'>
           By registering you accept our <span className='term-privacy-text'>terms and Conditions</span> and <span className='term-privacy-text'>Privacy policy</span>

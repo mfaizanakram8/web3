@@ -13,7 +13,7 @@ const Sidebar = () => {
             to="/profile"
             className={`sidebar-link ${location.pathname === '/profile' ? 'active' : ''}`}
           >
-            <img src="/assets/contact1.png" alt="Right Icon" className="icon-image7" />
+             <span className='size'><img src="/assets/contact1.png" alt="Right Icon" className="icon-image7" /></span>
             <span className='spano'>Account</span>
           </Link>
         </li>
@@ -22,7 +22,7 @@ const Sidebar = () => {
             to="/preferences"
             className={`sidebar-link ${location.pathname.startsWith('/preferences') ? 'active' : ''}`}
           >
-            <img src="/assets/set.png" alt="Right Icon" className="icon-image2" />
+             <span className='size'> <img src="/assets/set.png" alt="Right Icon" className="icon-image2" /></span>
             <span className='spano'> Preferences</span>
           </Link>
         </li>
@@ -31,7 +31,7 @@ const Sidebar = () => {
             to="/addpayment"
             className={`sidebar-link ${location.pathname === '/addpayment' ? 'active' : ''}`}
           >
-            <img src="/assets/message.png" alt="Right Icon" className="icon-image3" />
+              <span className='size'><img src="/assets/message.png" alt="Right Icon" className="icon-image8" /></span>
            <span className='spano'>  Payment</span>
           </Link>
         </li>
@@ -40,7 +40,7 @@ const Sidebar = () => {
             to="/notifications"
             className={`sidebar-link ${location.pathname === '/notifications' ? 'active' : ''}`}
           >
-            <img src="/assets/notifications.png" alt="Right Icon" className="icon-image4" />
+          <span className='size'><img src="/assets/notifications.png" alt="Right Icon" className="icon-image4" /></span>
             <span className='spano'> Notifications </span>
           </Link>
         </li>
@@ -51,7 +51,7 @@ const Sidebar = () => {
             className={`sidebar-link ${location.pathname === '/language' ? 'active' : ''}`}
           >
             
-            <img src="/assets/Vector.png" alt="Right Icon" className="icon-image5" />
+            <span className='size'><img src="/assets/Vector.png" alt="Right Icon" className="icon-image5" /></span>
             <span className='spano'>Language</span>
           </Link>
         </li>

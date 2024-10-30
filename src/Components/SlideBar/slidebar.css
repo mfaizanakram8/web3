@@ -1,7 +1,7 @@
 .sidebar {
  
   width: 300px;
-    margin-top: 70px;
+    margin-top: 90px;
     margin-left: 150px;
     
     
@@ -92,99 +92,96 @@
 
 .li4.active  .icon-image7{
     content: url('/assets/contact.png');
-    background-color: #7346D2;
+ 
 }
 .li4:hover .icon-image7{
     content: url('/assets/contact.png');
-    background-color: #7346D2;
+  
 }
 
 .icon-image7 {
-    background-color: #EFE8FE;
-    width: 20px;
-    height: 20px;
-    border-radius: 100%;
-    padding: 6px;
-    margin-left: 18px;
-    margin-right: 18px;
-    margin-bottom: 19px;
+    width: 15px;
+  background-color: transparent;
 }
 
 .icon-image2 {
-    width: 20px;
-    height: 20px;
-    padding: 7px;
-    margin-right: 18px;
-    background-color: #EFE8FE;
-    border-radius: 50%;
-    margin-left: 19px;
-    margin-bottom: 19px;
+    width: 15px;
+    background-color: transparent;
 } 
 
 .li4.active  .icon-image2{
     content: url('/assets/set1.png');
-    background-color: #7346D2;
+
 }
 .li4:hover .icon-image2{
     content: url('/assets/set1.png');
-    background-color: #7346D2;
+  
 }
-.icon-image3 {
-    width: 20px;
-    height: 20px;
-    padding: 7px;
-    margin-right: 18px;
-    background-color: #EFE8FE;
-    border-radius: 50%;
-    margin-left: 19px;
-    margin-bottom: 19px;
+
+.icon-image8 {
+    width: 15px;
+    background-color: transparent;
 } 
+
 .icon-image4 {
-    width: 20px;
-    height: 20px;
-    padding: 7px;
-    margin-right: 18px;
+    width: 15px;
+  background-color: transparent;
+   
+  
+} 
+.size{
     background-color: #EFE8FE;
-    border-radius: 50%;
+    padding: 8px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    margin-right: 18px;
+ 
+border-radius: 50%;
     margin-left: 19px;
     margin-bottom: 19px;
-} 
-.icon-image5 {
-    width: 20px;
-    height: 20px;
-    padding: 7px;
-    margin-right: 18px;
-    background-color: #EFE8FE;
-    border-radius: 50%;
-    margin-left: 19px;
-    margin-bottom: 19px;
-} 
-.li4.active  .icon-image3{
-    content: url('/assets/message-1.png');
-    background-color: #7346D2;
 }
-.li4:hover .icon-image3{
+.icon-image5 {
+    width: 15px;
+    background-color: transparent;
+} 
+.li4.active  .size{
+   background-color: #7346D2;
+   
+}
+.li4:hover .size{
+  background-color: #7346D2;
+    
+}
+
+.li4.active  .icon-image8{
     content: url('/assets/message-1.png');
-    background-color: #7346D2;
+   
+}
+.li4:hover .icon-image8{
+    content: url('/assets/message-1.png');
+   
 }
 
 
 
 .li4.active  .icon-image4{
     content: url('/assets/notify.png');
-    background-color: #7346D2;
+   
 }
 .li4:hover .icon-image4{
     content: url('/assets/notify.png');
-    background-color: #7346D2;
+   
 }
 
 .li4.active  .icon-image5{
     content: url('/assets/vector1.png');
-    background-color: #7346D2;
+   
 }
 .li4:hover .icon-image5{
     content: url('/assets/vector1.png');
-    background-color: #7346D2;
+   
 }
-
+ 

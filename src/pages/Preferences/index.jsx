@@ -25,11 +25,11 @@ const Preferences = () => {
                   className="preference-icon"
                   
                 >
-                  <img
+                  <span className="size1"><img
                     src="/assets/alif-2.png"
                     alt="Right Icon"
                     className="icon-image6"
-                  />
+                  /></span>
                 </div>
                 <div className="preference-text">
                   <h3 >
@@ -43,12 +43,12 @@ const Preferences = () => {
                   className="preference-arrow"
                  
                 >
-                  <img
+                 <img
                     src="/assets/vactor1.png"
                     alt="Right Icon"
                     className="icon-image9"
                    
-                  />
+                  /> 
                 </div>
               </div>
             </Link>
@@ -57,18 +57,18 @@ const Preferences = () => {
             <Link to="/travelers" className="link-wrapper">
               <div className="preference-card">
                 <div className="preference-icon">
-                  <img
+                <span className="size1"><img
                     src="/assets/vac.png"
                     alt="Right Icon"
                     className="icon-imagep"
-                  />
+                  /> </span>
                 </div>
                 <div className="preference-text">
                   <h3>Accommodation preferences</h3>
                   <p >Lorem ipsum dolor sit amet, consectet</p>
                 </div>
                 <div className="preference-arrow">
-                  <img
+              <img
                     src="/assets/vactor1.png"
                     alt="Right Icon"
                     className="icon-image9"
@@ -81,11 +81,11 @@ const Preferences = () => {
             <Link to="/destination" className="link-wrapper">
               <div className="preference-card">
                 <div className="preference-icon">
-                  <img
+                <span className="size1"> <img
                     src="/assets/vac3.png"
                     alt="Right Icon"
                     className="icon-image3"
-                  />
+                  /> </span>
                 </div>
                 <div className="preference-text">
                   <h3 className="dar">Destination preferences</h3>
@@ -105,11 +105,11 @@ const Preferences = () => {
             <Link to="/holiday-preferences" className="link-wrapper">
               <div className="preference-card">
                 <div className="preference-icon">
-                  <img
+                <span className="size1"> <img
                     src="/assets/vac4.png"
                     alt="Right Icon"
                     className="icon-imagel"
-                  />
+                  /> </span>
                 </div>
                 <div className="preference-text">
                   <h3>My holidays preferences</h3>

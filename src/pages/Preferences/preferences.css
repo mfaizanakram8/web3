@@ -48,24 +48,23 @@
   transition: background-color 0.3s ease;
 
 }
+.icon-image9 {
+  width: 15px;
+  height: 20px;
+  padding: 7px;
+  margin-left: 250px;
+ 
+
+  
+}
 .icon-imagep {
   width: 15px;
-  height: 15px;
-  padding: 7px;
-  margin-right: 18px;
-  background-color: #EFE8FE;
-  border-radius: 50%;
-  margin-left: 19px;
+  background-color: transparent;
 }
 
 .icon-imagel {
-  width: 20px;
-  height: 20px;
-  padding: 7px;
-  margin-right: 18px;
-  background-color: #EFE8FE;
-  border-radius: 50%;
-  margin-left: 19px;
+width: 15px;
+background-color: transparent;
 }
 
 
@@ -138,25 +137,13 @@ p{
  background-color: transparent;
   color: #6F6F6F;
 }
-.icon-image9 {
-  width: 15px;
-  height: 20px;
-  padding: 7px;
-  margin-left: 250px;
- 
 
-  
-}
 
 
 .icon-image6 {
-  background-color: #EFE8FE;
-  width: 20px;
-  height: 20px;
-  border-radius: 100%;
-  padding: 6px;
-  margin-left: 18px;
-  margin-right: 18px;
+  background-color: transparent;
+  width: 25px;
+ 
 }
 .preference-arrow {
   font-size: 20px;
@@ -191,55 +178,45 @@ p{
 .preference-text{
   background-color: transparent;
 }
+.size1{
+  background-color: #EFE8FE;
+  padding: 8px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  margin-right: 18px;
 
+border-radius: 50%;
+  margin-left: 19px;
+  margin-bottom: 19px;
+}
+.preference-card:hover .size1{
+  background-color: #7346D2; 
+}
 
 /* Change image on hover */
 .preference-card:hover .icon-image6 {
   content: url('/assets/alif-1.png');
-  background-color: #7346D2; 
-  width: 20px;
-  height: 20px;
-  padding: 7px;
-  margin-right: 18px;
+ 
 
-  border-radius: 50%;
-  margin-left: 19px;/* Change the icon to another image */
 }
 
 .preference-card:hover .icon-imagep {
   content: url('/assets/vac1.png'); 
-  background-color: #7346D2;
-  width: 20px;
-  height: 20px;
-  padding: 7px;
-  margin-right: 18px;
 
-  border-radius: 50%;
-  margin-left: 19px;/* Change to a new image */
+
 }
 
 .preference-card:hover .icon-imagel {
   content: url('/assets/vac(4).png');
-  background-color: #7346D2;
-  width: 20px;
-  height: 20px;
-  padding: 7px;
-  margin-right: 18px;
 
-  border-radius: 50%;
-  margin-left: 19px; /* Change to another new image */
 }
 
 .preference-card:hover .icon-image3{
   content: url('/assets/vac3-.png');
-  background-color: #7346D2;
-  width: 20px;
-  height: 20px;
-  padding: 7px;
-  margin-right: 18px;
 
-  border-radius: 50%;
-  margin-left: 19px;
 }
 
 
@@ -249,13 +226,8 @@ p{
 
 
 .icon-image3 {
-  width: 20px;
-  height: 20px;
-  padding: 7px;
-  margin-right: 18px;
-  background-color: #EFE8FE;
-  border-radius: 50%;
-  margin-left: 19px;
+  width: 15px;
+background-color: transparent;
 }
 
 

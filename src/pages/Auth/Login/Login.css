@@ -33,6 +33,7 @@
     border-radius: 100px;
     text-align: center;
     font-size: 16px;
+    outline: #7346D2;
 }
 
 .login-email-input::placeholder {

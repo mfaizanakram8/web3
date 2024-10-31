@@ -76,7 +76,7 @@ const Profile = () => {
                 </div>
                 {isOpen && (
                   <div className="dropdown-list1">
-                    {['Pakistan', 'India', 'Select'].map((nationality) => (
+                    {['Select', 'India', 'Pakistan'].map((nationality) => (
                       <div
                         key={nationality}
                         className={`dropdown-item1 ${selectedNationality === nationality ? 'active' : ''}`}

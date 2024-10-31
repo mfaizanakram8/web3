@@ -24,7 +24,7 @@
 
 .preferences-content {
   flex: 0.75; 
-  padding: 40px;
+  padding: 30px;
   background-color: #fff;
 }
 
@@ -42,7 +42,7 @@
   align-items: center;
   
 
-  padding: 20px;
+  padding: 15px;
   border-radius: 7px;
  
   cursor: pointer;
@@ -126,9 +126,10 @@ p{
 
 .preference-text h3 {
   margin: 0;
-  font-size: 2.7vh;
+  font-weight: 400;
+  font-size: 2.9vh;
   color: #6F6F6F;
-  ;
+  
 
   
 }
@@ -136,7 +137,7 @@ p{
 .preference-text p {
   margin: 0;
   font-size: 2.2vh;
- background-color: transparent;
+  background-color: transparent;
   color: #6F6F6F;
   font-weight: 400;
 }
@@ -162,7 +163,7 @@ p{
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 20px;
+  padding: 15px;
   border-radius: 7px;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */

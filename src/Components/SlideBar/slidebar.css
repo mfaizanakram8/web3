@@ -49,11 +49,13 @@
 }
 .li4.active .spano{
     color: #7346D2;
+    font-weight: 400;
 }
 
  .li4 {
     position: relative;
     cursor: pointer;
+ 
     padding-left: 25px; 
 }
 
@@ -63,6 +65,7 @@
      position: absolute;
      left: 0;
      top: 0;
+  
      height: 100%; 
      width: 5px;
      background-color: #7346D2;
@@ -82,7 +85,7 @@
     color: #7346D2; 
 
  
- 
+
   
     margin: 0;
 }

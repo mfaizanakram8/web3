@@ -202,12 +202,18 @@
 }
 
 .dropdown-item1:hover {
-  background-color: #f9f9f9; 
+  background-color: #eae5ff; 
+  color: #7b4fd0;
+  margin-left: 7px;
+  border-radius: 5px;
+  margin-bottom: 3px;
+    width: 90%;
 }
 
 .dropdown-item1.active {
   background-color: #eae5ff; 
   color: #7b4fd0;
+  margin-bottom: 3px;
 margin-left: 7px;
 border-radius: 5px;
   width: 90%;

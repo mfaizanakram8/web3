@@ -197,26 +197,23 @@
   cursor: pointer;
   font-size: 16px;
   color: #666;
-
+  margin-left: 9px;
+  border-radius: 5px;
+  margin-bottom: 3px;
+    width: 90%;
   border-bottom: 1px solid #f0f0f0; 
 }
 
 .dropdown-item1:hover {
   background-color: #eae5ff; 
   color: #7b4fd0;
-  margin-left: 9px;
-  border-radius: 5px;
-  margin-bottom: 3px;
-    width: 90%;
+ 
 }
 
 .dropdown-item1.active {
   background-color: #eae5ff; 
   color: #7b4fd0;
-  margin-bottom: 3px;
-margin-left: 9px;
-border-radius: 5px;
-  width: 90%;
+
 }
 
 

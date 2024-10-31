@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect }  from "react";
 import Navbar from "../../Components/Navbar";
 import Sidebar from "../../Components/SlideBar/indexx";
+import { Navigate,Outlet } from "react-router-dom";
 import "./preferences.css";
 import { Link } from "react-router-dom"; // Link component import karna hai
 
 const Preferences = () => {
+   // Use effect to redirect to the origin page
+   useEffect(() => {
+    // Redirect to origin when preferences are loaded
+    <Navigate to="origin" />
+  }, []);
   return (
     <div>
       <Navbar />
@@ -19,7 +25,7 @@ const Preferences = () => {
             <h2 className="preferences-title">Preferences</h2>
 
             {/* Preference Card 1 */}
-            <Link to="/origin-preferences" className="link-wrapper">
+            <Link to="/origin" className="link-wrapper">
               <div className="preference-card ">
                 <div
                   className="preference-icon"
@@ -124,6 +130,7 @@ const Preferences = () => {
                 </div>
               </div>
             </Link>
+            <Outlet />
           </div>
         </div>
       </div>

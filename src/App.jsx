@@ -15,10 +15,9 @@ import Adventure from "./pages/Adventure";
 import SubscriptionPage from "./pages/Subscription";
 import Profile from "./pages/Profile";
 import Preferences from "./pages/Preferences";
-
 import Notification from "./pages/Notification";
 import Language from "./pages/Language";
-import  OriginPreferences from "./pages/Origin-Preference";
+import Origin from "./pages/Origin-Preference/origin";
 import Travlers from "./pages/Travelers";
 import Destination from "./pages/Destination";
 
@@ -26,32 +25,28 @@ function App() {
   return (
     <>
       <Routes>
-        <Route eaxct path="/" element={<SignUp />} />
-        <Route eaxct path="/signupotp" element={<SignupOtp />} />
-        <Route eaxct path="/login" element={<Login />} />
-        <Route eaxct path="/loginotp" element={<LoginOtp />} />
-        <Route eaxct path="/welcome" element={<Welcome />} />
-        <Route
-          eaxct
-          path="/preferredairports"
-          element={<PrefferredAirports />}
-        />
-        <Route eaxct path="/accommodation" element={<Accommodation />} />
-        <Route eaxct path="/adventure" element={<Adventure />} />
-        <Route eaxct path="/subscription" element={<SubscriptionPage />} />
-        <Route eaxct path="/addpayment" element={<AddPayment />} />
-        <Route eaxct path="/choosepayment" element={<ChoosePayment />} />
-        <Route eaxct path="/entercarddetail" element={<EnterCardDetail />} />
-        <Route eaxct path="/checkoutpayment" element={<CheckoutPayment />} />
-        <Route eaxct path="/profile" element={<Profile />} />
+        <Route exact path="/" element={<SignUp />} />
+        <Route exact path="/signupotp" element={<SignupOtp />} />
+        <Route exact path="/login" element={<Login />} />
+        <Route exact path="/loginotp" element={<LoginOtp />} />
+        <Route exact path="/welcome" element={<Welcome />} />
+        <Route exact path="/preferredairports" element={<PrefferredAirports />} />
+        <Route exact path="/accommodation" element={<Accommodation />} />
+        <Route exact path="/adventure" element={<Adventure />} />
+        <Route exact path="/subscription" element={<SubscriptionPage />} />
+        <Route exact path="/addpayment" element={<AddPayment />} />
+        <Route exact path="/choosepayment" element={<ChoosePayment />} />
+        <Route exact path="/entercarddetail" element={<EnterCardDetail />} />
+        <Route exact path="/checkoutpayment" element={<CheckoutPayment />} />
+        <Route exact path="/profile" element={<Profile />} />
 
-        <Route eaxct path="/preferences" element={<Preferences />} />
+        <Route exact path="/preferences" element={<Preferences />} />
+        <Route exact path="/origin" element={<Origin />} />
 
-        <Route eaxct path="/notifications" element={<Notification />} />
-        <Route eaxct path="/language" element={<Language />} />
-        <Route path="/origin-preferences" element={<OriginPreferences />} />
-        <Route path="/travelers" element={<Travlers />} />
-        <Route path="/destination" element={<Destination />} />
+        <Route exact path="/notifications" element={<Notification />} />
+        <Route exact path="/language" element={<Language />} />
+        <Route exact path="/travelers" element={<Travlers />} />
+        <Route exact path="/destination" element={<Destination />} />
       </Routes>
     </>
   );

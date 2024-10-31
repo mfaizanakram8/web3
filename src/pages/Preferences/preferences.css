@@ -101,6 +101,7 @@ h3{
 }
 p{
   background-color: transparent;
+  font-weight: 400;
 }
 
 .preference-card:hover h3{
@@ -134,9 +135,10 @@ p{
 
 .preference-text p {
   margin: 0;
-  font-size: 14px;
+  font-size: 2.2vh;
  background-color: transparent;
   color: #6F6F6F;
+  font-weight: 400;
 }
 
 

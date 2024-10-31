@@ -16,7 +16,7 @@ const Navbar = () => {
           
           <span className="span1">Accommodation</span>
       
-          <span  className="span1">Things To Do</span>
+          <span  className="span1">Things to do</span>
         </div>
         
       </div>

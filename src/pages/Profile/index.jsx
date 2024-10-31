@@ -67,7 +67,7 @@ const Profile = () => {
               <h3 className="profile-heading1">Nationality</h3>
               <div className="dropdown-container1">
                 <div className="dropdown-header1" onClick={toggleDropdown}>
-                  <span className={selectedNationality === 'Select' ? 'placeholder' : ''}>
+                  <span className={selectedNationality === 'Select' ? 'placeholder'  : 'selected'}>
                     {selectedNationality}
                   </span>
                   <span className={`arrow ${isOpen ? 'open' : ''}`}>

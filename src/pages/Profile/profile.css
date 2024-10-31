@@ -200,8 +200,10 @@
   margin-left: 9px;
   border-radius: 5px;
   margin-bottom: 3px;
+  margin-top: 3px;
+
     width: 90%;
-  border-bottom: 1px solid #f0f0f0; 
+  
 }
 
 .dropdown-item1:hover {

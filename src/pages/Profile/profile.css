@@ -176,7 +176,7 @@
 
 .dropdown-list1 {
   position: absolute;
-  width: 100%;
+  width: 90%;
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: white;
@@ -208,7 +208,12 @@
 .dropdown-item1.active {
   background-color: #eae5ff; 
   color: #7b4fd0;
+margin-left: 7px;
+border-radius: 5px;
+  width: 90%;
 }
+
+
 
 .arrow {
   transition: transform 0.3s ease;
